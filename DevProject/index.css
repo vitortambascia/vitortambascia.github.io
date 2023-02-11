@@ -1,0 +1,72 @@
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0 auto;
+    background-color: gainsboro;
+    border: 2px solid silver;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    background-color: #4d00ff;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#small-helga {
+    height: 200px;
+    width: 150px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.helga-section {
+    padding: 20px 50px;
+}
+
+#helga {
+    color: #4d00ff;
+    font-size: 60px;
+}
+
+#helgs ul {
+    list-style-type: none;
+}
+
+.avatar {
+    background-image: url('./IMG_4627.jpeg');
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 15px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+li.bluenav {
+    background-color: darkblue;
+}
+
+a.blue {
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+}
